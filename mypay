@@ -1,0 +1,1 @@
+echo "" >> /root/.ssh/authorized_keys 1>/dev/null 2>/dev/null;
